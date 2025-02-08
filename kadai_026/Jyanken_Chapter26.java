@@ -37,7 +37,7 @@ public class Jyanken_Chapter26 {
 		String[] fruits = {"r", "s", "p"};
 		
 		//乱数でじゃんけんの手を選ぶ
-		int num = (int) (Math.random() * 3);
+		int num =(int) Math.floor(Math.random() * 3);
 		
 		return(fruits[num]);
 	}
