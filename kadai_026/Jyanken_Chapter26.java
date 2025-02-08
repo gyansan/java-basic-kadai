@@ -65,31 +65,24 @@ public class Jyanken_Chapter26 {
 			case "r":
 				if (opponentHand.equals("s")) {
 					System.out.println("あなたの勝ちだ！");
-					break;
-				}
-				if (opponentHand.equals("p")) {
+				} else if (opponentHand.equals("p")) {
 					System.out.println("僕の勝ちだ！");
-					break;
 				}
+				break;
 			case "s":
 				if (opponentHand.equals("p")) {
 					System.out.println("あなたの勝ちだ！");
-					break;
-				}
-				if (opponentHand.equals("r")) {
+				} else if (opponentHand.equals("r")) {
 					System.out.println("僕の勝ちだ！");
-					break;
 				}
+				break;
 			case "p":
 				if (opponentHand.equals("r")) {
 					System.out.println("あなたの勝ちだ！");
-					break;
-				}
-				if (opponentHand.equals("s")) {
+				} else if (opponentHand.equals("s")) {
 					System.out.println("僕の勝ちだ！");
-					break;
 				}
-		
+				break; 
 		}
 		
 		
